@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>一行背景代码</title>
+	</head>
+	<style>
+		.box {
+			width: 300px;
+			height: 200px;
+			margin: 10px;
+			background: repeating-conic-gradient(#fff, #000, #fff .1deg);
+		}
+
+		.box1 {
+			width: 300px;
+			height: 200px;
+			margin: 10px;
+			background: repeating-conic-gradient(#fff, #000, #fff 45deg);
+		}
+	</style>
+	<body>
+		<h4>
+			纯色<br />
+			线性渐变(linear-gradient)<br />
+			径向渐变(radial-gradient)<br />
+			角向渐变(conic-gradient)<br />
+			多重线性渐变(repeating-linear-gradient)<br />
+			多重径向渐变(repeating-radial-gradient)<br />
+			多重角向渐变(repeating-conic-gradient)
+		</h4>
+		<h3>多重角向渐变</h3>
+		<div class="box"></div>
+		<div class="box1"></div>
+	</body>
+</html>
